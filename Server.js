@@ -115,6 +115,11 @@ app.post("/bfhl", (req, res) => {
   }
 });
 
+//for test purpose
+app.get("/bfhl", (req, res) => {
+  res.send("BFHL API is live ✅");
+});
+
 // Start server
 //just to let you know that the server is running and ready to accept requests
 // and also to display the user info IWrote All this.
